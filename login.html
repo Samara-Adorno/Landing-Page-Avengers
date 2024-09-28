@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conecte - se</title>
+    <link rel="stylesheet" href="CSS/login.css">
+    <script src="/JAVA SCRIPT/login.js" defer></script>
+</head>
+<body>
+    <!-- Formulário de Login -->
+    <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+
+  <div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="index.html" >
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span> 
+    </div>
+
+    <div class="container">
+        <!-- Logo -->
+        <div class="avengers">
+            <center>
+            <img src="IMG/logo.png" alt="" id="logo">
+            </center>
+            </div>
+            <h1>Conecte - se</h1>
+            <h2>Seja Bem - Vindo de Volta Grande Vingador!</h2>
+      <label for="txtEmail"><b>E - mail</b></label>
+      <input type="text" placeholder="Digite seu e - mail ..." name="txtEmail" required>
+
+      <label for="psw"><b>Senha</b></label>
+      <input type="password" placeholder="Digite sua senha ..." name="psw" required>
+        
+      <button type="submit">Entrar</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember">Lembrar de mim
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancelar</button>
+      <span class="psw">Esqueceu a<a href="#"> Senha?</a></span>
+    </div>
+  </form>
+</div>
+
+</body>
+</html>

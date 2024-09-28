@@ -1,0 +1,247 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:  #191a1b;
+}
+
+/* Navbar */
+nav{
+    width: 100%;
+    height: 150px;
+    background-color: #f12821;
+}
+nav ul{
+    float: left;
+}
+nav li{
+    text-align: center;
+    font-size: 17px;
+    line-height: 55px;
+    margin-top: 15px;
+    padding-right: 15px;
+    display: inline-block;
+}
+nav ul li a {
+    color: #edf2f4;
+    font-size: 20px;
+}
+nav ul li a:hover {
+    color: #4b81ff;
+    opacity: 0.2s;   
+    transition: all 0.5s;
+}
+
+.login{
+    width: 100%;
+    text-align: center;
+    border: 3px solid #000;
+}
+.login a{
+    font-size: 20px;
+    color: #3726f7;
+}
+.login a:hover {
+    color: #4b81ff;
+    opacity: 0.2s;   
+    transition: all 0.5s;
+}
+.linha-vertical {
+    text-align: center;
+    height: 10px;/*Altura da linha*/
+    border-left: 2px solid;/* Adiciona borda esquerda na div como ser fosse uma linha.*/
+    display: inline;
+    color: #ffc100;
+    margin-right: 15px;
+}
+
+.links{
+    width: 100%;
+    text-align: center;
+    border: 3px solid #000;
+}
+/* Logo */
+#logo{
+    width: 200px;
+    height: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.avengers{
+    background: #f12821;
+    border: 3px solid #000;
+}
+
+/* Slideshow container */
+.slideshow-container{
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.mySlides{
+  display: none;
+  max-height: 500px;
+}
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* Sobre */
+.sobre{
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f2f3;
+  border: 3px solid #f12821;
+}
+.sobre h1{
+  color: #a8121c;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.sobre h2{
+  color: #001f54;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.sobre p{
+  color: #0a1128;
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: justify;
+}
+
+/* Personagens */
+.personagens{
+  background-color: #f2f2f3;
+  margin-bottom: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+  border: 3px solid #f12821;
+}
+.personagens h1{
+  color: #a8121c;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.personagens h3{
+  color: #ac7de3;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.personagens h4{
+  color: #e6e8fd;
+  text-align: center;
+  margin-bottom: 20px;
+}
+div.gallery {
+  border: 3px solid #f12821;
+  background-color: #0c065e;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.gallery img {
+  width: 100%;
+  height: 400px;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Informações */
+.informacoes{
+  background-color: #f2f2f3;
+  margin-bottom: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+  border: 3px solid #f12821;
+}
+.informacoes img{
+  width: 200px;
+  height: 250px;
+  padding: 5px;
+  margin-bottom: 20px;
+  border: 2px solid #0c065e;
+}
+.informacoes h1{
+  color: #a8121c;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.informacoes h3{
+  color: #ff002b;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.informacoes h4{
+  color: #3726f7;
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+#tabelas{
+  width: 100%;
+  margin-bottom: 20px;
+}
+table, th, td{
+  border-collapse: collapse;
+}
+td{
+  text-align: center;
+  padding: 10px;
+}
+a{
+  color: #ac7de3;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 20px;
+}
+button.button{
+  padding: 5px;
+  margin-bottom: 30px;
+  background-color: #0c065e;
+  border: 2px solid #e63946;
+}
+a:hover{
+  color: #ec4b5b;
+}

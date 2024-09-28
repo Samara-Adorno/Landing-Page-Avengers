@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastra - se</title>
+    <link rel="stylesheet" href="CSS/cadastro.css">
+    <script src="/JAVA SCRIPT/cadastro.js" defer></script>
+</head>
+<body>
+    <!-- Formulário de Cadastro -->
+    <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Cadastra - se</button>
+     <div id="id01" class="modal">
+        <form action="index.html" class="modal-content">
+            <div class="container">
+                <!-- Logo -->
+            <div class="avengers">
+            <center>
+            <img src="IMG/logo.png" alt="" id="logo">
+            </center>
+            </div>
+            <h1>Cadastra - se</h1>
+            <h2>Sua jornada como Vingador começa aqui. Liberte o herói que há em você!</h2>
+            <hr>
+            <label for="txtNome"><b>Nome Completo</b></label>
+            <input type="text" id="txtNome" placeholder="Digite seu Nome Completo..." name="txtNome" required>
+
+            <label for="txtEmail"><b>E - mail</b></label>
+            <input type="text" id="txtEmail" placeholder="Digite o seu e - mail..." name="txtEmail" required>
+
+            <label for="psw"><b>Senha</b></label>
+            <input type="password" placeholder="Didite uma senha..." name="psw" required>
+
+            <label for="psw-repeat"><b>Repita a senha</b></label>
+            <input type="password" placeholder="Digite a senha novamente" name="psw-repeat" required>
+
+            <label>
+                <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Lembre - se de mim
+            </label>
+
+            <div class="clearfix">
+                <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                <button type="submit" class="signupbtn">Sign Up</button>
+              </div>
+            </div>
+        </form>
+     </div>
+</body>
+</html>
